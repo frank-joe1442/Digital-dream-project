@@ -47,6 +47,11 @@ function test_input($data){
     echo $addres .'<br>';
     echo $school .'<br>';
     echo $age;
+
+    date_default_timezone_set("Africa/Lagos");
+    $nextyear = strtotime('next year');
+
+    echo "copyrite 1999-". date('Y:m:d', $nextyear)." " .date('h:i:sa');
     
     
 ?>
