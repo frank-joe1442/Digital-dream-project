@@ -1,0 +1,33 @@
+section{
+    display: flex;
+    width: 100%;
+    justify-items: center;
+    justify-content: center;
+    height: 95vh;
+    background: rgb(93, 93, 202);
+    color: aliceblue;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 60%;
+}
+
+input[type="text"],
+input[type="submit"],
+textarea{
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+label{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.error{
+    color: red;
+}
